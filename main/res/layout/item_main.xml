@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+
+
+<TextView
+     android:id = "@+id/xItem"
+     app:layout_constraintTop_toTopOf = "parent"
+     app:layout_constraintStart_toStartOf = "parent"
+     android:textSize = "15sp"
+     android:layout_width = "50dp"
+     android:layout_height = "40dp"
+     android:hint = "Item #"
+     android:layout_marginTop = "11dp"
+     android:layout_marginStart = "8dp" />
+
+<EditText
+     android:id = "@+id/xDescr"
+     android:nextFocusForward = "@+id/xQty"
+     android:nextFocusDown = "@+id/xQty"
+     android:layout_width = "0dp"
+     android:textSize = "15sp"
+     android:layout_height = "wrap_content"
+     android:hint = "Description"
+     android:inputType = "textCapCharacters"
+     android:singleLine = "true"
+     app:layout_constraintStart_toEndOf = "@+id/xItem"
+     android:layout_marginStart = "4dp"
+     app:layout_constraintTop_toTopOf = "parent" />
+
+<EditText
+        android:id = "@+id/xQty"
+        app:layout_constraintLeft_toRightOf = "@+id/xDescr"
+        android:nextFocusForward = "@+id/xQtyBy"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:hint = "Qty"
+        android:textSize = "15sp"
+        android:inputType = "textCapCharacters"
+        android:singleLine = "true"
+        android:layout_marginLeft = "4dp" />
+
+<EditText
+        android:id = "@+id/xQtyBy"
+        app:layout_constraintTop_toBottomOf = "@+id/xQty"
+        android:nextFocusForward = "@+id/xgMaj"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:hint = "Packaging"
+        android:textSize = "15sp"
+        android:inputType = "textCapCharacters"
+        android:singleLine = "true"
+        app:layout_constraintStart_toEndOf = "@+id/xPar"
+        android:layout_marginStart = "8dp" />
+
+    <EditText
+        android:id = "@+id/xgMaj"
+        app:layout_constraintTop_toBottomOf = "@+id/xDescr"
+        app:layout_constraintStart_toStartOf = "parent"
+        android:layout_alignStart = "@+id/xItem"
+        android:layout_below = "@+id/xItem"
+        android:nextFocusForward = "@+id/xgMin"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:hint = "Major"
+        android:textSize = "15sp"
+        android:inputType = "number"
+        android:singleLine = "true"
+    />
+
+    <EditText
+        android:id = "@+id/xgMin"
+        app:layout_constraintTop_toBottomOf = "@+id/xDescr"
+        android:layout_below = "@+id/xItem"
+        android:nextFocusForward = "@+id/xPar"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:hint = "Minor"
+        android:textSize = "15sp"
+        android:inputType = "number"
+        android:singleLine = "true"
+        app:layout_constraintStart_toEndOf = "@+id/xgMaj"
+        android:layout_marginStart = "8dp" />
+
+    <EditText
+        android:id = "@+id/xQoh"
+        app:layout_constraintTop_toBottomOf = "@+id/xDescr"
+        android:layout_below = "@+id/xItem"
+        android:nextFocusForward = "@+id/xPar"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:hint = "On Hand"
+        android:textSize = "15sp"
+        android:inputType = "number"
+        android:singleLine = "true"
+        app:layout_constraintStart_toEndOf = "@+id/xgMin" android:layout_marginStart = "8dp" />
+   <EditText
+       android:id = "@+id/xPar"
+       app:layout_constraintTop_toBottomOf = "@+id/xDescr"
+       android:layout_below = "@+id/xItem"
+       android:nextFocusForward = "@+id/xQtyBy"
+       android:layout_width = "0dp"
+       android:layout_height = "wrap_content"
+       android:hint = "Par"
+       android:textSize = "15sp"
+       android:inputType = "number"
+       android:singleLine = "true"
+       app:layout_constraintStart_toEndOf = "@+id/xQoh" android:layout_marginStart = "8dp" />
+
+    <EditText
+        android:id = "@+id/xUPC"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toBottomOf = "@+id/xgMaj"
+        app:layout_constraintLeft_toRightOf = "@+id/xgMin"
+        android:layout_alignTop = "@+id/xItem"
+        android:layout_toEndOf = "@+id/xgMin"
+        android:nextFocusForward = "@+id/xkeys"
+        android:layout_width = "0dp"
+        android:layout_height = "43dp"
+        android:hint = "UPC Code"
+        android:textSize = "15sp"
+        android:inputType = "textCapCharacters"
+        android:singleLine = "true"
+        android:layout_marginTop = "8dp"
+    />
+
+    <EditText
+        android:id = "@+id/xkeys"
+        app:layout_constraintTop_toBottomOf = "@+id/xQtyBy"
+        app:layout_constraintLeft_toRightOf = "@+id/xUPC"
+        android:layout_alignEnd = "@+id/xQty"
+        android:layout_below = "@+id/xItem"
+        android:layout_width = "200dp"
+        android:layout_height = "44dp"
+        android:hint = "keys"
+        android:textSize = "15sp"
+        android:inputType = "text"
+        android:singleLine = "true"
+        android:layout_marginTop = "8dp"
+    />
+ <EditText
+     android:id = "@+id/xExtra"
+     android:hint = "extra"
+     android:layout_width = "0dp"
+     android:layout_height = "68dp"
+     android:inputType = "text"
+     app:layout_constraintStart_toStartOf = "parent"
+     app:layout_constraintEnd_toEndOf = "parent"
+     android:layout_marginTop = "8dp"
+     app:layout_constraintTop_toBottomOf = "@+id/xkeys" />
+<Button
+    android:id = "@+id/doneButton"
+    android:text = "Done"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    app:layout_constraintEnd_toEndOf = "parent"
+    android:layout_marginEnd = "8dp"
+    android:onClick = "onDoneButton"
+    app:layout_constraintTop_toBottomOf = "@+id/xExtra" />
+ <TextView
+     android:layout_width = "wrap_content"
+     android:layout_height = "23dp"
+     android:id = "@+id/xADate"
+     android:text = "20181231"
+     app:layout_constraintStart_toStartOf = "parent"
+     android:layout_marginTop = "8dp"
+     app:layout_constraintTop_toBottomOf = "@+id/xExtra"
+     app:layout_constraintEnd_toStartOf = "@+id/doneButton"
+     android:layout_marginEnd = "8dp" />
+ </android.support.constraint.ConstraintLayout>
