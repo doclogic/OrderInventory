@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity {
         mlv.setAdapter(mla);
         if (savedInstanceState != null) {
 //            simpleToast("Restore Instance", 5);
-            mIX = (Integer) savedInstanceState.get("mIX");
-            mainV = (Integer) savedInstanceState.get("mainV");
+            mIX = (int) savedInstanceState.get("mIX");
+            mainV = (int) savedInstanceState.get("mainV");
             if (mainV == 1) editMain();
         }
         if ((mIX > -1) && (mIX < mla.getCount())) mlv.setSelection(mIX);
