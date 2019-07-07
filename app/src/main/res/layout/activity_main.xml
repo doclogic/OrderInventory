@@ -43,14 +43,14 @@
         app:layout_constraintTop_toTopOf = "parent" />
 
     <ListView
-        android:id = "@+id/mainList"
-        android:layout_width = "0dp"
-        android:layout_height = "150dp"
-        app:layout_constraintStart_toStartOf = "parent"
-        app:layout_constraintEnd_toEndOf = "parent"
-        app:layout_constraintHorizontal_bias = "0.0"
-        android:layout_marginTop = "8dp"
-        app:layout_constraintTop_toBottomOf = "@+id/seekItem" />
+        android:id="@+id/mainList"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekItem" />
 
     <Button
         android:id = "@+id/plusButton"
@@ -64,15 +64,13 @@
         />
 
     <Button
-        android:id = "@+id/minusButton"
-        android:layout_height = "wrap_content"
-        android:layout_width = "47dp"
-        android:onClick = "onMinusButton"
-        android:text = "-"
-        app:layout_constraintStart_toEndOf = "@id/qMinusButton"
-        app:layout_constraintTop_toBottomOf = "@+id/plusButton"
-        app:layout_constraintBottom_toBottomOf = "parent"
-        />
+        android:id="@+id/minusButton"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:onClick="onMinusButton"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@id/qMinusButton"
+        app:layout_constraintTop_toBottomOf="@+id/plusButton" />
 
     <Button
         android:id = "@+id/qPlusButton"
@@ -86,15 +84,15 @@
 
 
     <Button
-        android:id = "@+id/qMinusButton"
-        android:text = "inv -"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:onClick = "onqMinusButton"
-        app:layout_constraintTop_toBottomOf = "@+id/qPlusButton"
-        app:layout_constraintBottom_toBottomOf = "parent"
-        android:layout_alignParentBottom = "true"
-        app:layout_constraintStart_toEndOf = "@+id/sDownButton" android:layout_marginStart = "140dp" />
+        android:id="@+id/qMinusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:onClick="onqMinusButton"
+        android:text="inv -"
+        app:layout_constraintStart_toEndOf="@+id/sDownButton"
+        app:layout_constraintTop_toBottomOf="@+id/qPlusButton" />
 
     <Button
         android:id = "@+id/sUpButton"
@@ -107,14 +105,14 @@
         app:layout_constraintStart_toStartOf = "parent" android:layout_marginStart = "8dp" />
 
     <Button
-        android:id = "@+id/sDownButton"
-        android:text = "\u21A1"
-        android:layout_width = "50dp"
-        android:layout_height = "wrap_content"
-        android:onClick = "sDownButton"
-        app:layout_constraintTop_toBottomOf = "@+id/sUpButton"
-        app:layout_constraintBottom_toBottomOf = "parent"
-        app:layout_constraintStart_toStartOf = "parent" android:layout_marginStart = "8dp" />
+        android:id="@+id/sDownButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:onClick="sDownButton"
+        android:text="\u21A1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sUpButton" />
 
     <Button
         android:id = "@+id/editbutton"
