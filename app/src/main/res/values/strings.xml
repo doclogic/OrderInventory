@@ -12,6 +12,7 @@
     <string name="file_add">Add file</string>
     <string name="file_save">Save</string>
     <string name="file_csv">Generate CSV</string>
+    <string name="file_import">Import</string>
     <string name="file_backup">Backup</string>
     <string name="entry_find">Find</string>
     <string name="entry">Entry</string>
@@ -26,5 +27,6 @@
     <string name="add_file">MBMadd</string>
     <string name="csv_file">MBMcsv.csv</string>
     <string name="backup_file">MBMback_</string>
+    <string name="import_file">MBMimport</string>
 </resources>
 

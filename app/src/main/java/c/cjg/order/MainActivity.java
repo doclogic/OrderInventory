@@ -101,7 +101,7 @@ class oViewHolder {
 public class MainActivity extends AppCompatActivity {
     static final int itemLen = 5, descrLen = 30, qohLen = 4, qtyLen = 4, qLimit = 9999, qtyByLen = 10, parLen = 3,
             gMajLen = 3, gMinLen = 3, UPCLen = 15, keysLen = 40, AdateLen = 8;
-    public String mFile = "", addFile = "";
+    public String mPath = "", addFile = "", iPath = "";
     public TextView itemView = null, ADateView = null;
     public EditText seekView = null, descrView = null, qohView = null, qtyView = null, qtyByView = null, parView = null,
             gmajView = null, gminView = null, UPCView = null, keysView = null, extraView = null, fView = null;
@@ -118,7 +118,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mainV = 0;
         setContentView(R.layout.activity_main);
-        mFile = this.getObbDir().toString();
+        mPath = this.getObbDir().toString();
+        iPath = this.getExternalFilesDir(null).toString();
 //        fView = findViewById(R.id.fname)
 //        fView.setText(addFile);
 
@@ -127,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
 //        mlv.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 //        mlv.setEmptyView(findViewById(R.id.list_empty));
         mla = new ListAdapter();
-        mLoad(getResources().getString(R.string.main_file), 0);  //0 is clear array first  "NEW"
+        mLoad(mPath +"/"+getResources().getString(R.string.main_file), 0);  //0 is clear array first  "NEW"
         mlv.setAdapter(mla);
         if (savedInstanceState != null) {
 //            simpleToast("Restore Instance", 5);
@@ -221,7 +222,12 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.file_add:
 //              simpleToast("add file",0);
-                mLoad(getResources().getString(R.string.add_file), 1);    // don't clear array
+                mLoad(mPath +"/"+getResources().getString(R.string.add_file), 1);    // don't clear array
+                mla.notifyDataSetChanged();
+                return true;
+            case R.id.file_import:
+//              simpleToast("import file",0);
+                mLoad(iPath +"/"+getResources().getString(R.string.import_file), 1);    // don't clear array
                 mla.notifyDataSetChanged();
                 return true;
             case R.id.file_csv:
@@ -546,12 +552,12 @@ public class MainActivity extends AppCompatActivity {
     private void mLoad(String fname, int mode) {
         BufferedReader br;
         String line;
-        Integer len;
+        int len;
         int from;
         mnext = 0;
         // Read file
         try {
-            br = new BufferedReader(new FileReader(mFile + "/" + fname));
+            br = new BufferedReader(new FileReader(fname));
             if (mode == 0) {         //start fresh
                 mla.clear();
                 mIX = -1;
@@ -668,7 +674,7 @@ public class MainActivity extends AppCompatActivity {
             filetext = filetext + line + mainItem.Extra + System.lineSeparator();
         }
         try {
-            File file = new File(mFile+"/"+fname);
+            File file = new File(mPath +"/"+fname);
             if (!file.exists()) file.createNewFile();
             FileWriter fw = new FileWriter(file.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
@@ -699,7 +705,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (filetext.length()>0)                    //got something to write...
             try {
-                File file = new File(mFile+"/"+fname);
+                File file = new File(mPath +"/"+fname);
                 if (!file.exists()) file.createNewFile();
                 FileWriter fw = new FileWriter(file.getAbsoluteFile());
                 BufferedWriter bw = new BufferedWriter(fw);
@@ -1005,7 +1011,7 @@ public class MainActivity extends AppCompatActivity {
                         "49033BAG SINGLE ORDER DOD LOGO     0001CASE      002990099UPC            non-food                                201805010000extra stuff\n" +
                         "61907NAPKIN 17X17 1 PLY 1/4 FOLD   0002CASE BAGS 002011022               keys                                    201805010010extra stuff\n" +
                         "99999123456789A123456789B123456789C9999PACKAGINGX009111222UPC456789012345keys                                    201805010002extra stuff here\n";
-        File file = new File(mFile);     //was fpath
+        File file = new File(mPath);     //was fpath
         try {
             file.createNewFile();
             FileWriter fw = new FileWriter(file.getAbsoluteFile());
