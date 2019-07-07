@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:context=".MainActivity">
+     <item android:id="@+id/entry_find"
+           android:title="@string/entry_find" />
+     <item android:id="@+id/entry_edit"
+           android:title="@string/entry_edit" />
+     <item android:id="@+id/entry_zeroQty"
+           android:title="@string/entry_zeroQty" />
+     <item android:id="@+id/entry_setPar"
+           android:title="@string/entry_setPar" />
+     <item android:id="@+id/entry_delete"
+           android:title="@string/entry_delete" />
+</menu>
