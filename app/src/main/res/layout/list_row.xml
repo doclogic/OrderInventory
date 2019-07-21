@@ -6,43 +6,43 @@
     <TextView android:id = "@+id/lItem"
               android:layout_width = "50dp"
               android:layout_height = "wrap_content"
-              android:textColor = "@color/list_item_color"
+              android:textColor = "@drawable/list_item_color"
               android:textSize = "15sp" />
 
     <TextView android:id = "@+id/lDesc"
               android:layout_width = "200dp"
               android:layout_height = "wrap_content"
-              android:textColor = "@color/list_item_color"
+              android:textColor = "@drawable/list_item_color"
               android:textSize = "15sp" />
 
     <TextView android:id="@+id/lQoh"
               android:layout_width="25dp"
               android:layout_height="wrap_content"
-              android:textColor="@color/list_item_color"
+              android:textColor="@drawable/list_item_color"
               android:textSize="15sp" />
 
     <TextView android:id="@+id/lQty"
               android:layout_width="25dp"
               android:layout_height="wrap_content"
-              android:textColor="@color/list_item_color"
+              android:textColor="@drawable/list_item_color"
               android:textSize="15sp" />
 
     <TextView android:id="@+id/lQtyBy"
               android:layout_width="100dp"
               android:layout_height="wrap_content"
-              android:textColor="@color/list_item_color"
+              android:textColor="@drawable/list_item_color"
               android:textSize="15sp" />
 
     <TextView android:id="@+id/lKeys"
               android:layout_width="200dp"
               android:layout_height="wrap_content"
-              android:textColor="@color/list_item_color"
+              android:textColor="@drawable/list_item_color"
               android:textSize="15sp" />
 
     <TextView android:id="@+id/lExtra"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
-              android:textColor="@color/list_item_color"
+              android:textColor="@drawable/list_item_color"
               android:textSize="15sp" />
 
 </LinearLayout>

@@ -13,6 +13,7 @@
     <string name="file_save">Save</string>
     <string name="file_csv">Generate CSV</string>
     <string name="file_import">Import</string>
+    <string name="file_sample">Sample</string>
     <string name="file_backup">Backup</string>
     <string name="entry_find">Find</string>
     <string name="entry">Entry</string>
@@ -23,7 +24,7 @@
     <string name="dialog_yeanea">yea nea</string>
     <string name="dialog_yea">yea</string>
     <string name="dialog_nea">nea</string>
-    <string name="main_file">MBMtable</string>
+    <string name="main_file">MBMtable.txt</string>
     <string name="add_file">MBMadd</string>
     <string name="csv_file">MBMcsv.csv</string>
     <string name="backup_file">MBMback_</string>

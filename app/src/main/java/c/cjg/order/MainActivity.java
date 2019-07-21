@@ -14,14 +14,29 @@ package c.cjg.order;
 
 import android.content.Context;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
-import android.view.*;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.*;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
+import android.widget.EditText;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -226,8 +241,9 @@ public class MainActivity extends AppCompatActivity {
                 mla.notifyDataSetChanged();
                 return true;
             case R.id.file_import:
-//              simpleToast("import file",0);
-                mLoad(iPath +"/"+getResources().getString(R.string.import_file), 1);    // don't clear array
+                String tmp = iPath +"/"+getResources().getString(R.string.import_file);
+                simpleToast("import file - "+tmp,0);
+                mLoad(tmp, 1);    // don't clear array
                 mla.notifyDataSetChanged();
                 return true;
             case R.id.file_csv:
@@ -245,6 +261,10 @@ public class MainActivity extends AppCompatActivity {
                     simpleToast(rslt + " entries saved.", 1);
                 else
                     simpleToast("Error saving Master!", 1);
+                return true;
+            case R.id.file_sample:
+//              simpleToast("dump file",0);
+                odump();
                 return true;
             case R.id.file_backup:
                 String fname = getResources().getString(R.string.backup_file) + cStamp(Calendar.getInstance().getTime());
@@ -785,17 +805,18 @@ public class MainActivity extends AppCompatActivity {
         else
             return "";
     }
-    public Integer text2num(String seg){
+    public Integer text2num(String seg) {
         Integer r = 0;
-        if (seg.equals(""))
+        if ((seg==null)||seg.equals(""))
             r = 0;
         else {
-//            try {
-            r = Integer.parseInt(seg);
-//            } catch (IOException e) {
-//                r = 0;
-//               e.printStackTrace();
-//            simpleToast("IO Exception" + e, 1);
+            try {
+                r = Integer.parseInt(seg);
+            } catch (NumberFormatException e) {
+                r = 0;
+                e.printStackTrace();
+                simpleToast("NumberFormatException " + e, 1);
+            }
         }
         return r;
     }
@@ -1011,7 +1032,7 @@ public class MainActivity extends AppCompatActivity {
                         "49033BAG SINGLE ORDER DOD LOGO     0001CASE      002990099UPC            non-food                                201805010000extra stuff\n" +
                         "61907NAPKIN 17X17 1 PLY 1/4 FOLD   0002CASE BAGS 002011022               keys                                    201805010010extra stuff\n" +
                         "99999123456789A123456789B123456789C9999PACKAGINGX009111222UPC456789012345keys                                    201805010002extra stuff here\n";
-        File file = new File(mPath);     //was fpath
+        File file = new File(mPath +"/"+getResources().getString(R.string.main_file));
         try {
             file.createNewFile();
             FileWriter fw = new FileWriter(file.getAbsoluteFile());

@@ -17,6 +17,9 @@
                 android:id="@+id/file_import"
                 android:title="@string/file_import" />
             <item
+                android:id="@+id/file_sample"
+                android:title="@string/file_sample" />
+            <item
                 android:id="@+id/file_save"
                 android:title="@string/file_save" />
             <item
