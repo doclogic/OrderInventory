@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Order 1.5</string>
+    <string name="app_name">Order 1.6</string>
     <string name="action_settings">Settings</string>
     <string name="action_quit">Quit-discard</string>
     <string name="action_exit">Save and Exit</string>
@@ -28,6 +28,6 @@
     <string name="add_file">MBMadd</string>
     <string name="csv_file">MBMcsv.csv</string>
     <string name="backup_file">MBMback_</string>
-    <string name="import_file">MBMimport</string>
+    <string name="import_file">MBMimport.txt</string>
 </resources>
 

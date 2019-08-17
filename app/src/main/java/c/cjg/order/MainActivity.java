@@ -8,12 +8,14 @@ package c.cjg.order;
  09/10/2018 ver 1.1 Interface rework
  09/22/2018 ver 1.2 generate CSV of order
  07/06/2019 ver 1.5 rebuild Order from CJGOrder (rename)
+ 08/17/2019 ver 1.6 import and Theme/colors
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 //import com.cjg.cjglib;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
@@ -40,6 +42,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+
+import static android.os.Environment.DIRECTORY_DOWNLOADS;
 
 class MainItem  {
     String item;                //numeric digit         itemLen
@@ -134,7 +138,8 @@ public class MainActivity extends AppCompatActivity {
         mainV = 0;
         setContentView(R.layout.activity_main);
         mPath = this.getObbDir().toString();
-        iPath = this.getExternalFilesDir(null).toString();
+//        iPath = this.getExternalFilesDir(null).toString();
+        iPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).toString();
 //        fView = findViewById(R.id.fname)
 //        fView.setText(addFile);
 
@@ -171,14 +176,13 @@ public class MainActivity extends AppCompatActivity {
 //        }
 //        simpleToast("End onCreate", 1);
     }
-
-    /*
-        @Override
-        protected void onResume() {
-            super.onResume();
-            simpleToast("onResume", 1);
-        }
-    */
+/*
+    @Override
+    protected void onResume() {
+        super.onResume();
+        simpleToast("onResume", 1);
+    }
+*/
     @Override
     public void onSaveInstanceState(Bundle outState) {
 //        simpleToast("save instance", 1);
@@ -241,7 +245,8 @@ public class MainActivity extends AppCompatActivity {
                 mla.notifyDataSetChanged();
                 return true;
             case R.id.file_import:
-                String tmp = iPath +"/"+getResources().getString(R.string.import_file);
+                String tmp = mPath +"/"+getResources().getString(R.string.import_file);
+//                String tmp = "/sdcard/Download/"+getResources().getString(R.string.import_file);
                 simpleToast("import file - "+tmp,0);
                 mLoad(tmp, 1);    // don't clear array
                 mla.notifyDataSetChanged();
@@ -570,23 +575,27 @@ public class MainActivity extends AppCompatActivity {
         mlv.setSelectionFromTop(pos, top);
     }
     private void mLoad(String fname, int mode) {
-        BufferedReader br;
+        FileReader frdr;
+        BufferedReader brdr;
         String line;
         int len;
         int from;
         mnext = 0;
         // Read file
         try {
-            br = new BufferedReader(new FileReader(fname));
+            frdr = new FileReader(fname);
+            brdr = new BufferedReader(frdr);
             if (mode == 0) {         //start fresh
                 mla.clear();
                 mIX = -1;
             }
-            while ((line = br.readLine()) != null) {
+            while ((line = brdr.readLine()) != null) {
                 len = line.length();
                 from = 0;
                 String s = line.substring(0, itemLen).trim();
-                if (mla.look(s) < 0) {
+                if (mla.look(s) > -1) {
+                    simpleToast(s + " exists", 0);
+                } else {
                     mainItem = new MainItem();
                     if (len >= itemLen) {
                         mainItem.item = s;
@@ -635,11 +644,11 @@ public class MainActivity extends AppCompatActivity {
                     mainItem.Extra = line.substring(from, len).trim();
                     if (mainItem.Extra == null) mainItem.Extra = "";
                     mIX = mla.add(mainItem);
-                } else simpleToast(s + " exists", 0);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
-//            simpleToast("IO Exception" + e, 1);
+            simpleToast("IO Exception " + e, 1);
         }
     }
     private Integer mSave(String fname) {
