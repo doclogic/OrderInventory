@@ -1,0 +1,383 @@
+23278PRIME RIB ROASTED             3/10 LB   0001001100000                                                       201808080000
+27993STEAK SIRLOIN                 60 CT     0001001100000               meat beef                               201808080000
+27990STEAK 13OZ T BONE             36 CT     0002002100000               meat beef                               201808080000
+91902POT ROAST COOKED              4/5 LB    0001001100000               meat beef                               201808090000
+18886CKN FRIED STEAK 4.5OZ TEST    121 CT    0002002100000                                                       201808090000
+18887CKN FRIED STEAK 7.5OZ TEST    72 CT     0001001100000                                                       201808090000
+68575VEGAN BURGER W/OUT WALNUTS    48/3.2OZ  0001001100000                                                       201808100000
+98354BEEF PUCK 2.2 OZ              1/283 CT  0005006100000               meat beef                               201808100001
+28484MEATLOAF                      8/2 LB    0001001100000                                                       201808100000
+86547MEATBALLS 2 OZ                2/5 LB    0001001100000                                                       201808100000
+61840CKN BREAST 5OZ IQF MAR        4/5#      0002002100000               meat chicken                            201808100000
+44375CKN BREAST STRIP BREADED      4/5 LB    0001001100000               meat chicken                            201808100000
+45785CHICKEN NUGGETS 4/5LB         4/5 LB    0001001000000               kids                                    201809100000
+94253ROASTED CKN                   8/3.5LB   0000000100000               meat chicken                            201808100000
+96460CKN GOUDA SAUSAGE             10 LB     0000000100000               meat ckicken sausage                    201808100000
+90095TURKEY DELI                   12/32 OZ  0001001100000                                                       201808100000
+98332SEARED TURKEY SLICED BREAST   4/5 LB    0003003000000               meat turkey                             201810180000
+76523BCN TURKEY                    15/1 LB   0002002100000               meat turkey bacon                       201808100000
+58833BACON PRECOOKED               6/200 SL  0005005100000                                                       201808100000
+36201SAUSAGE CRUMBLES LARGE        4/5 LB    0001001000000               meat sausage pork                       201809100000
+45767SAUSAGE LINKS PORK PRECKD     571 CT    0004004000000                                                       201809100000
+89700CHORIZO COOKED PORK NUGGET    4/5 LB    0002002000000               meat pork sausage                       201809100000
+68646HAM SLICED HICKORY            8/3 LBS   0002002100000               meat                                    201808100000
+73991HAM SHAVED DELI 3 OZ PORTIONS CASE BAGS 0002002100000               meat                                    201805010000
+65180FISH TILAPIA FILLETS          40 LB     0001001100000                                                       201808110000
+89680FISH SALMON WILD              27/6 OZ   0001001100000                                                       201808110000
+36176GARLIC PEPPERCORN BUTTER      12/1.25B  0001001000000                                                       201810240000
+36210LIQUID EGG WHITES             12/2 LB   0001001100000                                                       201808110000
+49305HORCHATA ICE CREAM            6/48 OZ   0002002000000                                                       201809100000
+75720ICE CREAM VANILLA             6/5QT     0002002100000                                                       201808110000
+75721ICE CREAM CHOC                6/5QT     0001001100000                                                       201808110000
+75722ICE CREAM STRAWBERRY          6/5QT     0001001100000                                                       201808110000
+28385TRES LECHES SAUCE             14/32 OZ  0001001000000                                                       201809100000
+68460YOGURT NON FAT VANILLA        12/32OZ   0001001100000                                                       201808110000
+44367CHEESE STICKS                 6/4 LBS   0001001100000                                                       201808110000
+28136STRAWBERRIES SLICED FROZEN    6/6.5LB   0001001100000                                                       201808110000
+11028BLUEBERRIES                   12/2.5LB  0001001100000                                                       201808110000
+86587PASTE TUSCAN TOMATO           2/2LB     0001001100000                                                       201808110000
+28500RED SKIN MASHED POTATOES      20/2 LB   0003003100000                                                       201808110000
+93216POTATOES RED SKIN             6/6 LB    0006006100000                                                       201808110000
+79380BROCCOLI                      12/2 LB   0002002100000                                                       201808110000
+28428SOUTHWEST CREAMED CORN        10/2 LB   0001001000000                                                       201810240000
+99749SUPER SWEET CUT CORN          12/2.5LB  0001001100000                                                       201808110000
+96465CARAMELIZED ONIONS IQF        10/2 LB   0000000100000                                                       201808110000
+45769FAJITA BLEND                  10/2LB    0005005100000                                                       201808110000
+61937FRIES WAVELENGTH              6/6 LBS   0006006100000                                                       201805010000
+11024FRIES SEASONED 5/16IN         6/6 LB    0004004100000                                                       201808110000
+89676RICE WHOLE GRAIN              66/5 OZ   0000000100000                                                       201808110000
+58753FRENCH TOAST BREAD            8 CT      0003003100000                                                       201808110000
+65326RYE BREAD SLICED              10 LVS    0003003000000                                                       201809100000
+65327SOURDOUGH BREAD SLICED        CASE BAGS 0003003100000               bread                                   201805010000
+73899POTATO BREAD SLICED           12 CT     0002002100000                                                       201808110000
+76508BREAD WHITE SLICED            12 CT     0003003100000                                                       201808110000
+76509BREAD MULTIGRAIN/WHEAT SLICED 12 CT     0003003100000               bread                                   201805010000
+90049BREAD 7 GRAIN SLICED          10 CT     0002002100000                                                       201808110000
+94217CIABATA/HOAGIE ROLL           90 CT     0003003100000                                                       201808110000
+11095KAISER BRIOCHE BUN            72 CT     0005005100000                                                       201808110000
+73968JR. HAMBURGER BUNS 4IN FROZEN 10/12CT   0000000100000                                                       201808110000
+76507BUN 4.5 BRIOCHE STYLE CHEESE  10/7 CT   0000000100000                                                       201808110000
+79391HAMBURGER BUN WHEAT OAT TOPPEDCASE BAGS 0000001100000               bread                                   201805010001
+68644ENGLISH MUFFIN FROZEN         16/1DZ    0000000100000                                                       201808110000
+96418ENGLISH MUFFIN FROZ GLUT FREE 36 CT     0000000100000                                                       201808110000
+61845BUTTERMILK BISCUIT PREBAKED   144 CT    0000000100000                                                       201808110000
+28763WHITE CORN TORTILLA CHIPS     1/30 LB   0000000100000                                                       201808110000
+65295TORTS FLOUR 6IN PRESSED       12/12 CT  0000000100000                                                       201808110000
+63540PECAN PIE PRESLICED           6 CT      0000000000000                                                       201810240000
+63541PUMPKIN PIE PRESLICED         6 CT      0000000000000                                                       201810240000
+65278CHEESECAKE NEW YORK STYLE     4 CT      0000000100000                                                       201808110000
+11098VANILLA PUDDING               6/2 LB    0002002100000                                                       201808110000
+18730SHORTBREAD PIECES             5/1 LB    0001001100000                                                       201808110000
+27942STRAWBERRY SAUCE              12/32 OZ  0000000100000                                                       201808110000
+28424BRUSCHETTA TOPPING            10/2 LB   0000000000000                                                       201809100000
+36206STRAWBERRY POPPING CANDY      1/5 LB    0000000000000                                                       201809100000
+68595CREAM CHEESE ICING            12/2 LB   0001001100000                                                       201808110000
+68586WHIPPED TOPPING ON TOP        24/8OZ    0001001100000                                                       201808110000
+90100NUT TOPPING                   12/12 OZ  0000000100000                                                       201808110000
+93236DENNYS APPLE CRISP            12/2 LB   0000000100000                                                       201808110000
+99777CAKE BATTER CHOC CREME        14/1.5LB  0000000100000                                                       201808140000
+65212SOUP POTATO                   16/1.66#  0000000100000                                                       201808140000
+65199SOUP CKN NOODLE               16/1.25#  0001001100000                                                       201808140000
+65201SOUP VEGETABLE BEEF           16/1.25#  0000000100000                                                       201808140000
+41381KRAFT MAC  CHEESE             36/7OZ    0001001100000                                                       201808140000
+61879PASTA NESTED                  12.5      0001001100000                                                       201808140000
+96435NACHO MEAT BEEF GLTN FREE     8/2 LB    0002002100000                                                       201808140000
+11100CHEESE SAUCE GOUDA            12/2 LB   0000000100000                                                       201808140000
+28376CITRUS SAUCE                  10/2LB    0001001100000                                                       201808140000
+36174BUTTERY GARLIC AND HERB GLAZE 12/24 OZ  0000000000000                                                       201810250000
+36204GHOST PEPPER SAUCE            14/1.5LB  0000000100000                                                       201808140000
+36218MEATLOAF SAUCE                20/1.25#  0000000100000                                                       201808140000
+96411FIVE PEPPER SAUCE             15/2 LB   0000000100000                                                       201808140000
+96443SPAGHETTI SAUCE               40/1 LB   0001001100000                                                       201808140000
+99761PEPPERJACK SAUCE              20/2 LB   0001001100000                                                       201808140000
+94249TURKEY GRAVY MIX              6/13.6Z   0002002000000                                                       201810250000
+44477CILANTRO FROZEN               4/8OZ     0000000100000                                                       201808140000
+20732ORANGE JUICE                  4/90 OZ   0002002100000                                                       201808140000
+44432APPLE JUICE 6 1 CONCENTRATE   4/90 OZ   0001001100000                                                       201808140000
+94165BERRY JUICE BLEND             4/90 OZ   0000000100000                                                       201808140000
+25106LEMONADE                      4/90 OZ   0001001100000                                                       201808140000
+45792LIMEADE CONCENTRATE           6/64 OZ   0001001100000                                                       201810040000
+68461BASE MANGO FRUIT CREATIONS    12/32OZ   0001001100000                                                       201808140000
+68462BASE STRAWBERRY FRUIT CREATION12/32OZ   0002002100000               beverage                                201805010000
+65206SWEET GRILLING BLEND GAL      1 GAL     0000000200000                                                       201808190000
+91887GARLIC CHEESE PASTE           6/3.5 LB  0000000200000                                                       201808190000
+28700MARGARINE WHIPPED NPHO        4/6 LB    0002004200000                                                       201808190002
+35955LIQUID MARGARINE              35LB      000400520000000026700110641                                         201808190001
+50387LIQUID EGGS  TEST             2/20LB    0005010100000                                                       201805010005
+89677EGGS HARD BOILED              1/72 CT   0000000200000                                                       201808190000
+11089BUTTERMILK WHOLE              12/32 OZ  0000000200000                                                       201808190000
+36162BULK YOGURT                   6/2 LB    0000000200000                                                       201808190000
+45780CREAMER HALF HALF ASEPTIC     384 CT    0005005000000                                                       201810250000
+45751REAL CREAM TOPPING            12/15 OZ  0002002200000                                                       201808190000
+68608FANCY SHREDDED CHEDDAR        4/5 LBS   0002002200000                                                       201808190000
+18497CHEESE MILD SLD INTERLEAF     18/1.5LB  0000000200000                                                       201808190000
+63506SLICED AMERICAN CHEESE        4/5 LBS   0000000200000                                                       201808190000
+23210CHEESE SLICED SWISS           8/1.5LB   0000000200000                                                       201808190000
+27989CHEESE FETA                   10/8 OZ   0000000200000                                                       201808190000
+36203THREE PEPPER GOUDA CHEESE     12/16.5   0000000200000               sauce cheese                            201808190000
+91855CHEESE ITALIAN BLEND          4/3 LB    0001001200000                                                       201808190000
+98263APPLES SLICED FRESH           6/14 OZ   0000000200000                                                       201808190000
+68465BLUE CHEESE DRESSING          4/1 GAL   0000000200000                                                       201808190000
+47550HONEY MUSTARD  REV            4/1 GAL   0000000200000                                                       201808190000
+61825ITIALIAN FAT FREE GAL         1 GAL     0000000200000                                                       201808190000
+91841CHOC MORSELS                  12/16OZ   0000000200000                                                       201808190000
+91839WHITE CHOC CHIPS              12/16 OZ  0000000200000                                                       201808190000
+35941SAUCE WING RTU                4/1GAL    0000000200000                                                       201808190001
+49325PICKLE CHIPS                  3.5 GAL   0000000200000                                                       201010040000
+50236PUMPKIN COFFEE CREAMER        192 CT    0001001000000                                                       201810250000
+50275SINGLE SERVE CREAMER FRCH VAN           0004004000000                                                       201902280000
+18912SINGLE SERV CREAMER FRCH VAN  180 CT    0004004300000               condiment                               201805010000
+50276SINGLE SERVE CREAMER HAZELNUT           0002002000000                                                       201902280000
+18952SINGLE SERV CREAMER HAZLENUT  180 CT    0000000300000                                                       201808250000
+68492CRANBERRY SAUCE               24/14OZ   0000000000000                                                       201810250000
+63475CRAISINS DRIED CRANBERRIES    2/48OZ    0000000300000                                                       201808250000
+23061SLICED JALAPENOS              24/14 OZ  0000000300000                                                       201808250000
+40568IMPROVED HASHBROWNS           6/34 OZ   0000000300000                                                       201808250000
+76470POTATO STICKS                 12/9 OZ   0000000300000                                                       201808250000
+76529DRESSING CAESAR               8/24 OZ   0001001300000                                                       201808250000
+91854RANCH DRESSING MIX            20/4.65   0000000300000                                                       201808250000
+414091000 ISLAND DRESSING GAL      EACH      0000000300000                                                       201808250000
+65339BALSAMIC VING. DRESSING       1 GAL     0000000300000                                                       201808250000
+18865CEREAL OATS OLD FASHIONED     12/42 OZ  0000000300000                                                       201808250000
+18893TOPPING FLAX SEED STREUSEL    5/1 LB    0000000000000                                                       201810250000
+18864CEREAL GRITS QUICK            12/28 OZ  0000000300000                                                       201808250000
+32177WAFFLE MIX NEW                24/1.88#  0000000300000                                                       201808250000
+86581HOMESTYLE CROUTONS SEAS       10/1 LB   0000000300000                                                       201808250000
+36091MIX STUFFING PHO MIX          12/6 OZ   0000000000000                                                       201810250000
+28820NEW PANCAKE MIX WHEAT         30/1 LB   0000000000000                                                       201810250000
+58832PANCAKE MIX WHEAT BRAN        30/1#     0000000300000                                                       201808250000
+98341NEW PANCAKE MIX               10/3.3#   0000000300000                                                       201808250000
+99753TATER TOT MIX                 24/15.5   0000000300000                                                       201808250000
+91861FILLING CROWN CHOC PASTRY     12/2 LB   0000000300000                                                       201808250000
+11099SEA SALT CARAMEL SAUCE        12/16 OZ  0000000300000                                                       201808250000
+28740CINNAMON CRUMB TOPPING        60/6.5OZ  0000000300000                                                       201808250000
+36202SPRINKLES CONFETTI NAT COLOR  5/1LB     0000000300000                                                       201808250000
+36205STRAWBERRY BITS NATURAL       1/10 LB   0000000300000                                                       201808250000
+38304OREO PIECES  MED CRUNCH       12/1#     0000000300000                                                       201808260000
+76471TOPPING PEANUT BUTTER         15.33 LB  0000000300000                                                       201808260000
+45774CAKE BATTER MILKSHAKE MIX     5/1 LB    0000000300000                                                       201808260000
+15910SALTINE CRACKERS              500PK/2   0000000300000                                                       201808260000
+41385GOLDFISH CRACKERS             6/31OZ    0000001300000               kids                                    201808260001
+18880ALL AMERICAN SAUCE            8/24 OZ   0000000000000                                                       201810250000
+68484BBQ DIPPING SAUCE             4/1 GAL   0000000300000                                                       201808270000
+18859FRENCH TOAST BATTER MIX       50/2.14   0000000300000                                                       201808270000
+28816GRAVY COUNTRY PHO FREE        70/4.9OZ  0000000300000                                                       201808270000
+28817GRAVY BROWN PHO FREE          48/3.25   0000000300000                                                       201808270000
+41440MAYONNAISE                    4/1 GAL   0000000300000                                                       201808270000
+50340OIL NO TRANS FRYING           35 LB     0000000300000                                                       201808270000
+54677PAM SPRAY DENNYS              6/17OZ    0000000300000                                                       201808270000
+76599SUGAR PACKETS DENNYS 1/10 OZ  1/2000CT  0000000300000                                                       201805010000
+79373SUGAR POWDERED 10X            1/2 LB    0000000300000                                                       201808270000
+94185SUGAR PKTS LIGHT BROWN        125 CT    0000000300000                                                       201808270000
+94159GENERIC SWEETNER YELLOW       2000 CT   0000000300000                                                       201808270000
+94160GENERIC SWEETNER PINK         2000 CT   0000000300000                                                       201808270000
+94161GENERIC SWEETNER BLUE         2000 CT   0000000300000                                                       201808270000
+07328SHAKER SALT IODIZED           24/26 OZ  0000000300000                                                       201808270000
+94191ALL PURPOSE SEASON SPICE TRADE8/8 OZ    0001001300000                                                       201805010000
+13174BLK PEPPER                    EACH      0000000300000                                                       201808290000
+68548CINNAMON SUGAR BLEND          8/7 OZ    0001001000000                                                       201810250000
+11088GREEK SEASONING               8/3 OZ    0000000300000                                                       201808290000
+50263SEASONING PUMPKIN PANCAKE     10/1 LB   0000000000000                                                       201810250000
+96467SALT  PEPPER MIX              8/7 OZ    0000000300000                                                       201808290000
+48527KETCHUP PACKETS               1000/9GM  0000000300000                                                       201808290000
+53822KETCHUP USD BOTTLE            30/20 OZ  0000000300000               condiment                               201805010000
+63504SALSA FIRE ROASTED            10/4LB    0000000300000                                                       201808290000
+40503CHOLULA HOT SAUCE             12/5 OZ   0000000300000                                                       201808290000
+44331RED TABASCO SAUCE             12/5 OZ   0000000300000                                                       201808290000
+44332GREEN TABASCO SAUCE           12/5OZ    0001001000000                                                       201810260000
+96421SRIRACHA SAUCE                24/11.5   0000000300000                                                       201808290000
+35923MUSTARD SQUEEZE BOTTLE 12/12OZ12/12OZ   0000000300000                                                       201805010000
+76555MUSTARD PACKETS FRENCHS       200/7 GM  0001001000000                                                       201810260000
+15916A 1 STEAK SAUCE               12/10/OZ  0000000300000                                                       201808290000
+18714SAUCE HEINZ 57                24/5 Z    0000000300000                                                       201808290000
+78592PICKLES CRINKLE CUT 7183      6/5.75    0000000300000                                                       201808290000
+36163STRAWBERRY JAM                400/.5OZ  0000000300000                                                       201808290000
+36164HONEY CUPS                    200/.5OZ  0000000300000                                                       201808290000
+36165GRAPE JELLY                   400/.5OZ  0000000300000                                                       201808290000
+50245PEANUT BUTTER PORTION CUPS    200 CT    0000000000000                                                       201810260000
+19064SYRUP SUGAR FREE              12/12/OZ  0000000300000                                                       201808290000
+47635PANCAKE  WAFFLE SYRUP         4/1 GAL   0000000300000                                                       201808290000
+65176SYRUP CUPS                    100/1.5Z  0000000300000                                                       201808290000
+96396CHOC SYRUP                    4/1 GAL   0000000300000                                                       201808290000
+98274HOT FUDGE TOPPING             16/28 OZ  0000000300000                                                       201808290000
+86539BOURBON GLAZE                 2/1 GAL   0000000300000                                                       201808290000
+36171COFFEE COLD BREW CONCENTRATE  12/10 OZ  0001001300000                                                       201808290000
+45771COFFEE REGULAR handwritten              0000000300000                                                       201810040000
+45772COFFEE SIG DINER BLEND DECAF  128/2.75  0000000300000                                                       201808290000
+11026ICED TEA                      96/3 OZ   0000000300000                                                       201808290000
+15548TEA BAGS HOT LIPTON           1/100/BX  0000000300000                                                       201808290000
+18507TEA HERBAL ORG GARDEN CAF FREE          0000000300000                                                       201805010000
+03712SYRUP DR. PEPPER              5 GAL     0000000300000                                                       201808290000
+27671FANTA ORANGE BIB              2.5GAL    0000000300000                                                       201808290000
+28063HI C FRUIT PUNCK BIB          2.5GL     0000000300000                                                       201808290000
+44350FANTA CHERRY 1 GALLON BIB     1 GAL     0000000300000                                                       201808290000
+44354FANTA VANILLA 1 GALLON BIB    1 GAL     0000000300000                                                       201808290000
+52975SPRITE HYCS                   5GAL      0000000300000                                                       201808290000
+52976COKE HYCS                     5GAL      0001002300000               beverage                                201805010001
+52977DIET COKE HYCS                5GAL      0000000300000                                                       201808290000
+79722SODA BARQS ROOT BEER 2.5 GAL  2.5GAL    0000000300000                                                       201808290000
+86452FUZE 2.5 GAL RASPBERRY TEA    1/2.5GAL  0000000300000                                                       201808290000
+18600TOMATO JUICE                  8/64 OZ   0000000300000                                                       201808290000
+18608RUBY RED GRAPEFRUIT JUICE 100 8/64 OZ   0000000300000                                                       201808290000
+23428COCOA CHOC SUPREME            6/2 LB    0000000300000                                                       201808290000
+76544SYRUP PLAIN CANE              4/1 LT    0000000300000                                                       201805010000
+23402UTENSIL KIT CARRY OUT BLK     250 CT    0000000400000                                                       201808300000
+49029SPOON SOUP BLK PLASTIC WRAPPED1000 CT   0000000400000               non-food                                201805010200
+36219PLACEMAT GENERIC 2018 V1      2000 CT   0000000000000                                                       201810260000
+50242PLACEMAT M4 2018 NATIONAL     2000CT    0000000000000                                                       201810260000
+49023PLACEMAT NATIONAL M3/2018     2000/BOX  0000000400000                                                       201808300000
+45744PLACEMAT M2 2018 NATIONAL     2000 CT   0000000400000                                                       201808300000
+23054FOODSTICKS WOOD EA            1000 CT   0000000400000                                                       201810040000
+86554COASTER 4IN ORANGE/BROWN BANDS1/5000CT  0000000400000               non-food                                201805010000a stuff
+23338COFFEE SLEEVE KRAFT DOD       1000 CT   0000000400000                                                       201808300000
+49597COFFEE SLEEVE KRAFT DOD LOGO  1000 CT   0000000400000                                                       201810040000
+65271FILM PVC 18INX3000FT          1 ROLL    0000000400000                                                       201808300000
+65272FILM PVC 12INX3000FT          1 ROLL    0000000400000                                                       201808300000
+23396LINER BASKET DENNYS PRINT     1000 CT   0000000400000                                                       201808300000
+94258PAPER WAX PATTY 6IN X 6IN     1000 CT   0000001400000               non-food                                201805010001
+03032COFFEE FILTERS REG.           1000 CT   0000000400000                                                       201808300000
+90005LBL 1IN X 2IN PRINTER DENNYS  1/4 CT    0000000400000                                                       201808300000
+15860LINERS BABY STATION 918101R   500 CS    0000000400000                                                       201808300000
+65330TISSUE JUMBO 2 PLY TOILET     12 ROLLS  0000000400000                                                       201808300000
+76545COVERS TOILET SEAT            20/250CT  0000000400000                                                       201808300000
+61908TOWEL ROLL NATURAL KRAFT      12 CT     0001001400000                                                       201808300000
+18667JOURNAL PAPER 3.1INX273 THERM 1/50 CT   0001001400000               non-food pos printer                    201805010000
+18689JOURNAL PAPER 2.25INX85 THERM 1/50 CT   0001001400000               credit card printer                     201808300000
+36080THERMAL PAPER YELLOW 3INX220FT3 RL      0000000400000               OLO pos printer                         201808300000
+76503PAD POS ORDER W/OUT NUMBERS   100 CT    0000000400000                                                       201808300000
+61902TABLE CADDY 6 CT              6CT       0000000400000                                                       201808300000
+61864BELL GLASS COKE 20OZ PLASTIC  72CT      0000000400000                                                       201808300000
+96410SYRUP BOTTLE 12 OZ GLASS      12 CT     0000000400000                                                       201808300000
+49026KIDS MENU ENGLISH N1 M3/2018  600 CT    0000000400000                                                       201810040000
+49027KIDS MENU ENGLISH N2 M3 2018  600CT     0000000400000                                                       201810040000
+50239KIDS MENU ENG GENERIC N1      600 CT    0000000400000                                                       201810040000
+50241KIDS MENU ENG GENERIC TROP              0000001400000               menu kids                               201808300002
+23330CUP 16OZ HOT PAPER DOD LOGO   1/1000CT  0000000400000                                                       201808300000
+23336CUP 22OZ COLD PAPER DOD LOGO  1/1000CT  0000000400000                                                       201808300000
+28100CUP 16OZ PLAST DOD LOGO DNY   1/700 CT  0001001400000                                                       201808300000
+45747CUP 16OZ HOT PAPER DOD LOGO   1000 CT   0001001400000                                                       201808300000
+45748CUP 22OZ COLD PAPER DOD LOGO  1000 CT   0001001400000                                                       201810040000
+47539LID 10 12OZ FOAM TUMBLR DNY   1000      0000000400000                                                       201808300001
+49567CUP KIDS PLASTIC GRANDSLAMS   90 CT     0001001400000                                                       201810040000
+99756LID 12 16 24OZ PLAS CUP FLAT            0001001400000               non-food                                201805010000
+99760LID 16 OZ CUP DOME HOLE       900 CT    0001001400000                                                       201810040000
+23339PORTION CUP 4 OZ BLK          1/200 CT  0001001400000                                                       201808300000
+23357LID D.O.D CNTNR DNY           328 CT    0000000400000                                                       201808300000
+23397LID PORTION CUP 4OZ CLEAR EACH1/120 CT  0001001400000                                                       201808300000
+28117LID PORTION CUP 2OZ DENNYS    1/125 CT  0001001500000                                                       201808310000
+99744PORTION CUP 2 OZ DENNY EACH   125 CT    0001001500000                                                       201808310000
+23395LID COFFEE 16OZ PAPER WHT DNY 1/1000CT  0001001500000                                                       201810040000
+94188LID COLD PAPER CUP 22OZ DNY   2000 CT   0001001500000                                                       201810040000
+23294BAG LG PLST DENNYS DOD LOGO   200 CT    0001001500000                                                       201808310000
+45775BAG 5# KRAFT DNYS DOD LOGO    500 CT    0000000500000                                                       201810040000
+49033BAG SINGLE ORDER DOD LOGO     1000 CT   0001001400000               non-food                                201805010000
+50231BAG LG KRAFT DOD LOGO 2018    200 CT    0000000500000                                                       201810040000
+86555BAG FRY/COOKIE KRAFT PLAIN    1/2000CT  0001001500000                                                       201810040000
+27948INSERT D.O.D.CNTNR BLK DNY    328 CT    0000000500000                                                       201810040000
+28302CLAMSHELL 9 X6 MOLDED FIBER   1/250CT   0000000500000                                                       201808310000
+63502BASE DENNYS TAKEOUT FOAM      2/110CT   0000000500000                                                       201808310000
+63593INSERT DENNYS TAKEOUT DOME    2/110CT   0000000500000                                                       201808310000
+65186LID DOME CLEAR TAKEOUT        2/110CT   0000000500000                                                       201808310000
+23312BX BURGER KRAFTDOD LOGO       1/220 CT  0000000500000                                                       201808310000
+28091DRINK CARRIER 4 CUP           1/300 CT  0001001500000                                                       201808310000
+49038BOX BURGER KRAFT DOD LOGO     220 CT    0000000000000                                                       201810270000
+23299BASE D.O.D CNTNR BLK DNT      328 CT    0000000500000                                                       201809030000
+28695BASE 8IN RND CNTNR BLK        1/324 CT  0001001500000                                                       201810040000
+28696LID 8IN RND CNTNR DOD LOGO    1/324 CT  0001001500000                                                       201810040000
+28818ECO BOWL 8IN                  1/500 CT  0001001500000                                                       201809030000
+90052LID6 8 12OZ ECO FRIENDLY BOWL 1/500CT   0001001500000                                                       201809030000
+36190BOX PIE DENNYS PRINT          25 CT     0000000500000                                                       201809030000
+61907NAPKIN 17X17 1 PLY 1/4 FOLD   4000CT    0000002400000               non-food                                201805010010extra stuff
+23399STRAW BEV 7.75IN CLEAR WRPD   24/500CT  0000000500000                                                       201809030000
+49031STRAW MILKSHAKE 8.75IN REDWRPD1/300 CT  0000000500000                                                       201809030000
+76590TOOTHPICK                     24/800CT  0000000500000                                                       201809030000
+76589FRILL PICK 4 WOOD ASST COLORS 10/1000   0000000500000                                                       201809030000
+50353TUMBLER 12 OZ PLASTIC CLEAR   36 CT     0000000500000                                                       201809030000
+18700WOOD PICK 6IN BURGER SKEWER   1500 CT   0000000600000                                                       201809030000
+11033CAN LINER 10 GALLON           1000 CT   0000000600000                                                       201809030000
+11034CAN LINER 33 GALLON           500 CT    0001001600000                                                       201809030000
+45778GLOVE XX LARGE VINYL          10/100CT  0000000600000                                                       201810070000
+45779GLOVE XX LARGE VINYL EACH     100CT     0000000600000                                                       201810070000
+68619GLOVE CUT RESISTANT XLG       1 EA      0000000600000                                                       201809030000
+96473GLOVE LRG VINYL               10/100CT  0001001600000                                                       201809030000
+96475GLOVE XLRN VINYL              10/100CT  0001001600000                                                       201809030000
+98278WIPING TOWEL BLUE             600 CT    0001001600000                                                       201809030000
+98279WIPING TOWEL GREEN            600 CT    0001001600000                                                       201809030000
+36135CRAYONS COLORING DENNYS LOGO  12/250CT  0001001600000                                                       201809030000
+75742BOTTLE SQUEEZE 32OZ PLASTIC   1 EA      0000000600000                                                       201810070000
+75743BOTTLE SQUEEZE 12OZ PLASTIC   1 EA      0000000600000                                                       201810070000
+76546DISPENSER TOILET SEAT COVER   1 CT      0000000600000                                                       201809030000
+98310HOLDER TOOTHPICK              1 EA      0000000600000                                                       201809030000
+86486MITT FOOD PREP PLASTIC        1/2000CT  0001001600000                                                       201809030000
+22258SCRUB PAD NON ABRASIVE WHITE  1/40CT    0000000600000                                                       201809030000
+22262SCRUB PAD GENERAL PURPOSE GRN 60CT      0000000600000                                                       201809030000
+58801SOAP FOAM MICRELL ANTIBAC     2/1200ML  0000000600000                                                       201809030000
+75752SANITIZER HAND FOAM PURELL    2/1200ML  0000000600000                                                       201809030000
+41190TOY BROOM CORN                1 CT      0000000600000                                                       201809030000
+68626BROOM HEAD BLUE               1 EA      0000000600000                                                       201809030000
+68627BROOM HEAD GREEN W/BLK BRISTL 1 EA      0000000600000                                                       201809030000
+68628DECK BRUSH HEAD GREEN         1 EA      0000000600000                                                       201809030000
+68630GROUT BRUSH HEAD GREEN        1 EA      0000000600000                                                       201809030000
+40551BLUE MOP HEAD                 1         0000000600000                                                       201809030000
+40552GREEN MOP HEAD                1 CT      0000000600000                                                       201809030000
+40559BLUE MOP WRINGER              1 CT      0000000600000                                                       201810070000
+40560GREEN MOP WRINGER             1 CT      0000000600000                                                       201810070000
+76581ICE MELTING COMPOUND          1/50 LB   0001001600000                                                       201809030000
+96451URINAL SCREEN                 12 CT     0000000600000                                                       201809030000
+98290AIR FRESHENER REFILL COTTON   6 CT      0000000600000                                                       201809030000
+98291AIR FRESHENER REFILL CITRUS   6 CT      0001001600000                                                       201810070000
+11041DELIMER LIQUID LUSTER         4/1 GAL   0000000700000                                                       201809030000
+11043DETERGENT DISH LOW TEMP 5 GAL 5 GAL     0000000700000               red                                     201809030000
+11061RINSE ADDITIVE LOW TEMP 5 GAL 5 GAL     0000000700000               blue                                    201809030000
+11064SANITIZER DISH LUSTER 5 GAL gr5 GAL     0000000700000               green                                   201809030000
+28040DIP IT XP                     8/1.75LB  0001001700000                                                       201809030000
+11037CLEANER DEGREASER DAWN ULTRA  2/1 GAL   0000000700000                                                       201809030000
+11039CLNR FLOOR/MULTI SPIC  SPAN   3/1 GAL   0000000700000                                                       201810070000
+64701SANITIZER BROAD RANGE QUAT    3/1 GAL   0000000700000                                                       201809030000
+64703CLNR GLASS/MULTI SPIC  SPAN   2/1 GAL   0000000700000                                                       201809030000
+64705CLEANER DAWN POWER DISSOLVER  CASE/6    0000000700000                                                       201809030000
+68598CLEANER DEGREASER OASIS       2.5 GAL   0000000700000                                                       201810070000
+74310CLEANER COMET DISINFECT W/BLEA3/1 GAL   0000000700000                                                       201809030000
+84226DETERGENT POT  PAN            4/1 GAL   0000000700000                                                       201809030000
+96469POUR SPOUT BOTTLE TOPPER EA   6 CT      0000000800000                                                       201810070000
+76516BOWL 9 SOUP BRIGHT WHITE      1/24 CT   0000000800000                                                       201809030000
+76518DISH FRUIT 4.6IN BRIGHT WHITE 1/36CT    0000000800000                                                       201809030000
+76519PLATE 7.25IN BRIGHT WHITE     1/36CT    0000000800000                                                       201809030000
+76520PLATE 9IN BRIGHT WHITE        1/24 CT   0000000800000                                                       201809030000
+76522BOWL PASTA 11.87 BRIGHT WHITE 1/12 CT   0000000800000                                                       201809030000
+79369PLATE CHINA 10.5 BRIGHT WHITE 1/12 CT   0000000800000                                                       201809030000
+86592RAMEKIN 1.5OZ RND WHITE       1/72 CT   0000000800000                                                       201809030000
+49036MUG COFFEE 10OZ WHITE LOGO    36 CT     0000000800000                                                       201809030000
+68535TUMBLER 16 OZ OPTIC SWIRL     24 CT     0000000800000                                                       201809030000
+76521TEAPOT 10OZ BRIGHT WHITE      6CT       0000000800000                                                       201809030000
+36102FORK DINNER                   10 DZ     0000000800000                                                       201809030000
+36103KNIFE DINNER                  10 DZ     0000000800000                                                       201809030000
+36104KNIFE STEAK                   2 DZ      0000000800000                                                       201809030000
+36105SPOON ICED TEA                2 DZ      0000000800000                                                       201809030000
+36106SPOON SOUP                    2 DZ      0000000800000                                                       201809030000
+36107TEASPOON                      10 DZ     0000000800000                                                       201809030000
+65306CROCK SOUP 10OZ ROUND         24 CT     0000000800000                                                       201809030000
+73895SHAKERS SALT/PEPPER W/LIDS    24 CT     0000000800000                                                       201810070000
+98309HOLDER SUGAR PACKET WHITE     24 CT     0000000800000                                                       201810070000
+96401SOUP SPOON                    2 DZ      0001001800000                                                       201809030000
+96472BAG STEAM 8/9                 500CT     0000000900000                                                       201809040000
+44451FOOD BAG 4X2X8                1000/CS   0000000900000                                                       201809040000
+44452FOOD BAG 6X3X12               1000/CS   0000000900000                                                       201809040000
+68528GRILL BRICK                   12 CT     0000000900000                                                       201809040000
+75746DISPENSER PANCAKE             1 EA      0000000900000                                                       201809040000
+35947DREDGE W/HNDL ROSE LID PLAST  EACH      0000000900000                                                       201810070000
+44423DREDGEW/HNDL YELLOW LID PLAS  EACH      0000000900000                                                       201810070000
+50330SCISSORS ROUNDED TIP KITCHEN  EACH      0000000900000                                                       201809040000
+93200TOMATO CORER                  2 CT      0000001000000               non-food                                201810070001
+99734DISHER #100 S/S               1 EACH    0000000900000                                                       201801008000
+99735DISHER #12 S/S                1 EACH    0000000900000                                                       201809040000
+99736DISHER #20 S/S                1 EACH    0000000900000                                                       201809040000
+99737DISHER #60 S/S                1 EACH    0000000900000                                                       201809040000
+99738LADEL 3 OZ S/S                1 EACH    0000000900000                                                       201809040000
+23184MITT FAJITA SKILLET HNDL      1/24 CT   0000000900000                                                       201809040000
+96462OVEN MITT                     6 CT      0000000900000                                                       201809040000
+11114LID BAIN MARIE 8QT RD RED NEW 1 EA      0000000900000                                                       201810080000
+23217FRY PAN 7IN W/SILICONE HNDL   2 CT      0001002900000                                                       201809040001
+23211FRY PAN 8IN W/SILICONE HNDL   2 CT      0000000900000                                                       201809040000
+17503SALAD TONGS 9IN PLAST RED/BRWNEACH      0000000900000                                                       201810080000
+49021CREAM CHEESE ICING            12/2 LB   0000003000000                                                       201809100005

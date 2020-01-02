@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android = "http://schemas.android.com/apk/res/android"
-    xmlns:app = "http://schemas.android.com/apk/res-auto"
-    xmlns:tools = "http://schemas.android.com/tools"
-    android:layout_width = "match_parent"
-    android:layout_height = "match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <EditText
         android:id = "@+id/seekItem"
@@ -27,41 +25,51 @@
         android:layout_height = "37dp"
         android:onClick = "onFindButton"
         app:layout_constraintTop_toTopOf = "parent"
-        app:layout_constraintStart_toEndOf = "@+id/seekItem"
+        app:layout_constraintStart_toEndOf = "@id/seekItem"
         android:layout_marginStart = "8dp"
         />
 
     <Button
-        android:id = "@+id/newButton"
-        android:text = "New"
+        android:id="@+id/newButton"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:onClick="onNewButton"
+        android:text="New"
+        app:layout_constraintStart_toEndOf="@id/findButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id = "@+id/editbutton"
+        android:text = "Edit"
         android:layout_width = "wrap_content"
         android:layout_height = "37dp"
-        android:onClick = "onNewButton"
-        app:layout_constraintStart_toEndOf = "@+id/findButton"
-        tools:layout_editor_absoluteY = "0dp"
+        android:onClick = "onEditButton"
+        app:layout_constraintStart_toEndOf = "@id/newButton"
         android:layout_marginStart = "8dp"
         app:layout_constraintTop_toTopOf = "parent" />
 
     <ListView
         android:id="@+id/mainList"
         android:layout_width="0dp"
-        android:layout_height="500dp"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@id/sUpButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekItem" />
+        app:layout_constraintTop_toBottomOf="@id/editbutton" />
 
     <Button
-        android:id = "@+id/plusButton"
-        android:layout_width = "49dp"
-        android:layout_height = "wrap_content"
-        android:onClick = "onPlusButton"
-        android:text = "+"
-        app:layout_constraintStart_toEndOf = "@id/qPlusButton"
-        app:layout_constraintTop_toBottomOf = "@+id/mainList"
-        app:layout_constraintBottom_toTopOf = "@+id/minusButton"
-        />
+        android:id="@+id/plusButton"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onPlusButton"
+        android:text="+"
+        app:layout_constraintBottom_toTopOf="@id/minusButton"
+        app:layout_constraintStart_toEndOf="@id/qPlusButton"
+        app:layout_constraintTop_toBottomOf="@id/mainList" />
 
     <Button
         android:id="@+id/minusButton"
@@ -69,40 +77,45 @@
         android:layout_height="wrap_content"
         android:onClick="onMinusButton"
         android:text="-"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/qMinusButton"
-        app:layout_constraintTop_toBottomOf="@+id/plusButton" />
+        app:layout_constraintTop_toBottomOf="@id/plusButton" />
 
     <Button
-        android:id = "@+id/qPlusButton"
-        android:text = "inv +"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:onClick = "onqPlusButton"
-        app:layout_constraintTop_toBottomOf = "@+id/mainList"
-        app:layout_constraintBottom_toTopOf = "@+id/qMinusButton"
-        app:layout_constraintStart_toEndOf = "@+id/sUpButton" android:layout_marginStart = "140dp" />
+        android:id="@+id/qPlusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onqPlusButton"
+        android:text="inv +"
+        app:layout_constraintBottom_toTopOf="@id/qMinusButton"
+        app:layout_constraintStart_toEndOf="@id/sUpButton"
+        app:layout_constraintTop_toBottomOf="@id/mainList" />
 
 
     <Button
         android:id="@+id/qMinusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="140dp"
+        android:layout_marginStart="8dp"
         android:onClick="onqMinusButton"
         android:text="inv -"
-        app:layout_constraintStart_toEndOf="@+id/sDownButton"
-        app:layout_constraintTop_toBottomOf="@+id/qPlusButton" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/sDownButton"
+        app:layout_constraintTop_toBottomOf="@id/qPlusButton" />
 
     <Button
-        android:id = "@+id/sUpButton"
-        android:text = "\u219F"
-        android:layout_width = "51dp"
-        android:layout_height = "wrap_content"
-        app:layout_constraintTop_toBottomOf = "@+id/mainList"
-        app:layout_constraintBottom_toTopOf = "@id/sDownButton"
-        android:onClick = "sUpButton"
-        app:layout_constraintStart_toStartOf = "parent" android:layout_marginStart = "8dp" />
+        android:id="@+id/sUpButton"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="sUpButton"
+        android:text="\u219F"
+        app:layout_constraintBottom_toTopOf="@id/sDownButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainList" />
 
     <Button
         android:id="@+id/sDownButton"
@@ -111,17 +124,29 @@
         android:layout_marginStart="8dp"
         android:onClick="sDownButton"
         android:text="\u21A1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sUpButton" />
+        app:layout_constraintTop_toBottomOf="@id/sUpButton" />
 
     <Button
-        android:id = "@+id/editbutton"
-        android:text = "Edit"
-        android:layout_width = "wrap_content"
-        android:layout_height = "37dp"
-        android:onClick = "onEditButton"
-        app:layout_constraintStart_toEndOf = "@+id/newButton"
-        android:layout_marginStart = "8dp"
-        app:layout_constraintTop_toTopOf = "parent" />
+        android:id="@+id/upButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upb"
+        android:onClick="onUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainList"
+        app:layout_constraintBottom_toTopOf="@id/downButton"/>
+
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDownButton"
+        android:text="@string/downb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upButton" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

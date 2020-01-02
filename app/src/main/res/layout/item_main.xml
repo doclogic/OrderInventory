@@ -36,7 +36,7 @@
         android:id="@+id/xQty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
         android:hint="Qty"
         android:inputType="textCapCharacters"
         android:nextFocusForward="@+id/xQtyBy"
